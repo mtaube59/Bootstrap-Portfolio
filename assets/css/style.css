@@ -23,8 +23,8 @@ h2 {
 
 }
 #profile_pic {
-    width: 250px;
-    height: 300px;
+    width: 200px;
+    height: 250px;
     margin-left: 10px;
     /* padding: 0px 10px 0px 10px; */
 }
@@ -61,7 +61,15 @@ h4 {
 p {
     font-family: Arial, Helvetica, sans-serif;
 }
-.navbar-brand {
+footer {
+    background-color: #666666; 
+    color: #cccccc;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     text-align: center;
-    color: #cccccc
+    font-size: 12px;
+    border-top: solid 8px #4aaaa5;
+    padding: 10px 0px 0px 0px;
 }
