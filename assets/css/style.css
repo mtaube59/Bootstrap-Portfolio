@@ -34,7 +34,6 @@ h2 {
     width: 250px;
     height: 250px;
     margin-left: 10px;
-    position: relative;
 }
 .row {
     padding-bottom: 20px;
@@ -72,4 +71,12 @@ footer {
     font-size: 12px;
     border-top: solid 8px #4aaaa5;
     padding: 10px 0px 0px 0px;
+
+}
+.col-md-2 {
+    min-width: 250px;
+}
+.col-md-3 {
+    min-width: 250px;
+    min-height: 250px;
 }
