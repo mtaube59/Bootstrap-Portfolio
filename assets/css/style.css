@@ -1,30 +1,30 @@
 body {
-    background-image: url("../images/white-waves.png");
+    background-image: url("../images/footer_lodyas.png");
 }
 .font {
-    background-color: #4aaaa5;
+    background-color: orange;
     padding: 20px;
     margin-left: 10%;
 }
 .nav-back {
-    background-color: #ffffff;
+    background-color: #343a40;
 }
 .navbar {
     margin-bottom: 20px;
 }
 .container {
-    background-color: #ffffff;
+    background-color: #343a40;
     padding-bottom: 20px;
 }
 h2 {
-    color: #4aaaa5;
+    color: orange;
     padding: 10px;
     /* margin-left: 10px; */
 
 }
 #profile_pic {
     width: 200px;
-    height: 250px;
+    height: 300px;
     margin-left: 10px;
     float: left;
     /* padding: 0px 10px 0px 10px; */
@@ -44,24 +44,26 @@ h2 {
     width: 230px;
     left: 25px;
     color: #ffffff;
-    background: #4aaaa5;
+    background: orange;
     bottom: 50px;
     /* padding-bottom: 50px; */
     margin-bottom: 10px 0px 0px 5%;
+    z-index: 0;
 }
 h4 {
     height: 10px;
     padding-bottom: 10px
 }
 .btn-style {
-    background-color: #4aaaa5;
+    background-color: orange;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
 }
 p {
     font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff
 }
-footer {
+.footer {
     background-color: #666666; 
     color: #cccccc;
     width: 100%;
@@ -70,8 +72,9 @@ footer {
     bottom: 0;
     text-align: center;
     font-size: 12px;
-    border-top: solid 8px #4aaaa5;
+    border-top: solid 8px orange;
     padding: 10px 0px 0px 0px;
+    z-index: 2;
 
 }
 .col-md-2 {
@@ -80,4 +83,47 @@ footer {
 .col-md-3 {
     min-width: 250px;
     min-height: 250px;
+}
+
+.navbar-brand {
+    color: orange;
+}
+h3 {
+    color: orange;
+}
+hr {
+    background-color: orange;
+}
+:any-link {
+    color: orange;
+}
+label {
+    color: white;
+}
+.d-block {
+    width: 100%;
+    height: 600px;
+}
+#linkedin {
+    height: 32px;
+    width: 32px;
+    position:absolute;
+    left:290px;
+    top:10px;
+    margin: 0px 15px 15px 0px;
+    
+}
+#github-image {
+    position:absolute;
+    left:250px;
+    top:10px;
+    margin: 0px 15px 15px 0px;
+    
+
+}
+.carousel-indicators {
+    z-index: 1;
+}
+#bamazon {
+
 }
