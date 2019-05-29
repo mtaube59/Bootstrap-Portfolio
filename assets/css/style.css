@@ -120,6 +120,8 @@ label {
     
 }
 #github-image {
+    height: 32px;
+    width: 32px;
     position:absolute;
     left:250px;
     top:10px;
