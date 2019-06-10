@@ -132,3 +132,6 @@ label {
 .carousel-indicators {
     z-index: 1;
 }
+.link {
+    color: blue;
+}
